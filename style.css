@@ -3,10 +3,11 @@
    goal: make the boxes sit in a row
    ============================================= */
 .challenge-1 {
+  display: flex;
   background-color: grey;
   width: 100vw;
   /* add code below */
-
+  flex-direction: row;
 
 }
 
@@ -20,6 +21,8 @@
   width: 100vw;
   display: flex;
   /* add code below*/
+  flex-direction: column;
+
 
 
 
@@ -35,6 +38,12 @@
   background-color: grey;
   width: 100vw;
   /* add code below */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 
 
 }
@@ -49,6 +58,12 @@
   width: 100vw;
   height: 400px;
   /* add code below */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
 
 
 
@@ -66,6 +81,9 @@
   background-color: grey;
   width: 100vw;
   /* top section, add code below */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -73,6 +91,10 @@
   background-color: lightgray;
   width: 100vw;
   /* bottom section, add code below */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
 }
